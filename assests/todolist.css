@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    padding-top: 50px;
+    padding-left: 40px;
+    background-image: url(../img/dontforget.png);
+    background-size: cover;
+}
+.btn{
+    width: 120px;
+}
+
+.what-to-do{
+    width: 50%;
+
+    
+    color: black;
+}
+#addtodo{
+    width: 75%;
+    border: none;
+}
+.add-to-do{
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temp-check{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 10px;
+    animation: slide 1s;
+    
+    
+}
+
+.temp-check:hover{
+    
+    cursor: pointer;
+
+}
+
+
+@keyframes slide{
+    100% {
+        transform: rotateX(90deg);
+    }
+}
